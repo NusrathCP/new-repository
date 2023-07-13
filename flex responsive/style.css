@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+.flex-item-left{
+    background-color: aquamarine;
+    padding: 10px;
+    flex:25%;
+
+}
+.flex-item-right{
+    background-color: rgb(241, 79, 64);
+    padding: 10px;
+    flex:25%;
+    
+}
+@media (max-width:800px){
+    .flex-item-left, .flex-item-right{
+        flex:100%;
+    }
+}
+   

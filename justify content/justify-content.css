@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: last baseline;
+    background-color: rgb(215, 191, 191);
+}
+.flex-container> div{
+    background-color: aquamarine;
+    width: 10px;
+    margin:50px ;
+    text-align: end;
+    padding:1rem ;
+}

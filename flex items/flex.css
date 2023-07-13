@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    background-color: aquamarine;
+}
+.container>div{
+    background-color: blueviolet;
+    color: blue;
+    width:100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.div1{
+    order: 3;
+    flex-grow:1 ;
+}
+.div2{
+    order: 2;
+    flex-grow:1 ;
+}
+.div3{
+    order: 1;
+    flex-grow:1 ;
+}
+.div4{
+    order: 4;
+    flex-grow:16 ;
+}
+.align{
+    align-self: center;
+}
+

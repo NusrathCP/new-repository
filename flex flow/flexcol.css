@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    flex-direction:row-reverse;
+    background-color: blue;
+}
+.flex-container >div{
+    background-color: blueviolet;
+    margin:4rem ;
+    padding:3rem;
+    font-size: 40px;
+}
+.flex-flow-row-wrap >div{
+    background-color: rgb(193, 229, 247);
+    margin:4rem ;
+    padding:3rem;
+    font-size: 40px;
+    text-align: center;
+    line-height: 75px;
+}
